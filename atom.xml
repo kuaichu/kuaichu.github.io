@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kuaichu.github.io</id>
     <title>xhmの小网站</title>
-    <updated>2021-10-31T10:28:12.397Z</updated>
+    <updated>2021-10-31T10:32:22.731Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kuaichu.github.io"/>
     <link rel="self" href="https://kuaichu.github.io/atom.xml"/>
@@ -12,27 +12,16 @@
     <rights>All rights reserved 2021, xhmの小网站</rights>
     <entry>
         <title type="html"><![CDATA[有意思的游戏网站]]></title>
-        <id>https://kuaichu.github.io/post/you-yi-si-de-you-xi-wang-zhan/</id>
-        <link href="https://kuaichu.github.io/post/you-yi-si-de-you-xi-wang-zhan/">
+        <id>https://kuaichu.github.io/you-yi-si-de-you-xi-wang-zhan/</id>
+        <link href="https://kuaichu.github.io/you-yi-si-de-you-xi-wang-zhan/">
         </link>
         <updated>2021-10-31T10:08:15.000Z</updated>
-        <content type="html"><![CDATA[<p>Neave Interactive：https://neave.com/<br>
-星空之旅|植物大战僵尸（大概率打不开）：http://lonelystar.org/<br>
-ActivePlayer（ 可以查看各个游戏的月活之类的，裸连可能连不上）：https://activeplayer.io/<br>
-忧郁的loli（裸连可能连不上）：https://okloli.com/</p>
-]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[关于网盘]]></title>
-        <id>https://kuaichu.github.io/post/guan-yu-wang-pan/</id>
-        <link href="https://kuaichu.github.io/post/guan-yu-wang-pan/">
+        <id>https://kuaichu.github.io/guan-yu-wang-pan/</id>
+        <link href="https://kuaichu.github.io/guan-yu-wang-pan/">
         </link>
         <updated>2021-10-31T09:47:47.000Z</updated>
-        <content type="html"><![CDATA[<p>我的文件（1T，支持分享，但是关闭注册）：https://my-file.cn/<br>
-樱桃网盘（1T，不支持分享）：https://cherrydrive.cn/<br>
-爱丽丝的记事本（10GB，支持分享）：https://drive.noire.cc/<br>
-YR云盘（10GB，支持分享）：https://pan.yrxitong.com/<br>
-cloudreve（1GB，支持分享）：https://pan.qwq.nz/</p>
-]]></content>
     </entry>
 </feed>
