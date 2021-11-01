@@ -1,162 +1,17 @@
-<html>
-  <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>关于网盘 | xhmの小网站</title>
-<link rel="shortcut icon" href="https://kuaichu.github.io/favicon.ico?v=1635734177585">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
-<link rel="stylesheet" href="https://kuaichu.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="关于网盘 | xhmの小网站 - Atom Feed" href="https://kuaichu.github.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>页面跳转 Page forwarding</title>
+    <meta http-equiv="Cache-Control: no-cache, no-store, must-revalidate">
+    <meta http-equiv="refresh" content="0;url=https://kuaichu.github.io" />
+    <style>body, html{background:#303030;color:#fff;}a{text-decoration: none;color:#2196f3;transition: all .25s;}</style>
+</head>
+<body>
 
+<p>你不该来到这，现在 <a href="https://kuaichu.github.io">请点此处</a> 回到正轨。<br>This is weird, <a href="https://kuaichu.github.io">click here</a> Back to home-page.</p>
 
-    <meta name="description" content="我的文件（1T，支持分享，但是关闭注册）：https://my-file.cn/
-樱桃网盘（1T，不支持分享）：https://cherrydrive.cn/
-爱丽丝的记事本（10GB，支持分享）：https://drive.noire.c..." />
-    <meta name="keywords" content="" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-  </head>
-  <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://kuaichu.github.io">
-  <img class="avatar" src="https://kuaichu.github.io/images/avatar.png?v=1635734177585" alt="">
-  </a>
-  <h1 class="site-title">
-    xhmの小网站
-  </h1>
-  <p class="site-description">
-    xhmの资源收集网站
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="/archives" class="menu">
-          归档
-        </a>
-      
-    
-      
-        <a href="/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
-  </div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-</div>
-
-        <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              关于网盘
-            </h2>
-            <div class="post-info">
-              <span>
-                2021-10-31
-              </span>
-              <span>
-                1 min read
-              </span>
-              
-            </div>
-            
-            <div class="post-content-wrapper">
-              <div class="post-content">
-                <p>我的文件（1T，支持分享，但是关闭注册）：https://my-file.cn/<br>
-樱桃网盘（1T，不支持分享）：https://cherrydrive.cn/<br>
-爱丽丝的记事本（10GB，支持分享）：https://drive.noire.cc/<br>
-YR云盘（10GB，支持分享）：https://pan.yrxitong.com/<br>
-cloudreve（1GB，支持分享）：https://pan.qwq.nz/</p>
-
-              </div>
-              <div class="toc-container">
-                
-              </div>
-            </div>
-          </article>
-        </div>
-
-        
-
-        
-
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-  <a class="rss" href="https://kuaichu.github.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
-
-      </div>
-    </div>
-
-    <script>
-      hljs.initHighlightingOnLoad()
-
-      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
-
-      // This should probably be throttled.
-      // Especially because it triggers during smooth scrolling.
-      // https://lodash.com/docs/4.17.10#throttle
-      // You could do like...
-      // window.addEventListener("scroll", () => {
-      //    _.throttle(doThatStuff, 100);
-      // });
-      // Only not doing it here to keep this Pen dependency-free.
-
-      window.addEventListener("scroll", event => {
-        let fromTop = window.scrollY;
-
-        mainNavLinks.forEach((link, index) => {
-          let section = document.getElementById(decodeURI(link.hash).substring(1));
-          let nextSection = null
-          if (mainNavLinks[index + 1]) {
-            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
-          }
-          if (section.offsetTop <= fromTop) {
-            if (nextSection) {
-              if (nextSection.offsetTop > fromTop) {
-                link.classList.add("current");
-              } else {
-                link.classList.remove("current");    
-              }
-            } else {
-              link.classList.add("current");
-            }
-          } else {
-            link.classList.remove("current");
-          }
-        });
-      });
-
-    </script>
-  </body>
+</body>
 </html>
