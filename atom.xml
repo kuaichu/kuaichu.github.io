@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kuaichu.github.io</id>
     <title>xhmの小网站</title>
-    <updated>2021-10-31T13:40:18.895Z</updated>
+    <updated>2021-11-01T02:36:20.146Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kuaichu.github.io"/>
     <link rel="self" href="https://kuaichu.github.io/atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://kuaichu.github.io/images/avatar.png</logo>
     <icon>https://kuaichu.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, xhmの小网站</rights>
+    <entry>
+        <title type="html"><![CDATA[我宣布个事]]></title>
+        <id>https://kuaichu.github.io/BWksqvUQ7/</id>
+        <link href="https://kuaichu.github.io/BWksqvUQ7/">
+        </link>
+        <updated>2021-11-01T02:35:54.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[有意思的游戏网站]]></title>
         <id>https://kuaichu.github.io/you-yi-si-de-you-xi-wang-zhan/</id>
